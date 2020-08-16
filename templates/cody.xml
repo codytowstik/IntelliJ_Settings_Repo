@@ -1,0 +1,36 @@
+<templateSet group="cody">
+  <template name="comm" value="&lt;!-- $input$ --&gt; $END$" description="html comment" toReformat="true" toShortenFQNames="true">
+    <variable name="input" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name=".link" value="&lt;link rel='$rel$' href='$href$' /&gt;" description="html link" toReformat="true" toShortenFQNames="true">
+    <variable name="rel" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="href" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name=".linkcss" value="&lt;link rel='stylesheet' href='$href$' /&gt;" description="html css link" toReformat="true" toShortenFQNames="true">
+    <variable name="href" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name=".newhtml" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang='en'&gt;&#10;&lt;head&gt;&#10;    &lt;title&gt;$title$&lt;/title&gt;&#10;    &lt;meta charset='UTF-8'/&gt;&#10;    &#10;    &lt;link rel='stylesheet' href='$stylesheet$'/&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;    &lt;h1&gt;$h1$&lt;/h1&gt;&#10;    $END$&#10;&lt;/body&gt;&#10;&lt;/html&gt;" description="generate html" toReformat="true" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="stylesheet" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="h1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="constarrow" value="const $1$ = ( $2$ ) =&gt; {&#10;    $END$&#10;}" description="arrowfunc" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
