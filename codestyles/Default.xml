@@ -1,17 +1,1 @@
-<code_scheme name="Default" version="173">
-  <JavaCodeStyleSettings>
-    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
-    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
-  </JavaCodeStyleSettings>
-  <codeStyleSettings language="JAVA">
-    <option name="BRACE_STYLE" value="2" />
-    <option name="CLASS_BRACE_STYLE" value="2" />
-    <option name="METHOD_BRACE_STYLE" value="2" />
-    <option name="LAMBDA_BRACE_STYLE" value="2" />
-    <option name="ELSE_ON_NEW_LINE" value="true" />
-    <option name="IF_BRACE_FORCE" value="3" />
-    <indentOptions>
-      <option name="USE_TAB_CHARACTER" value="true" />
-    </indentOptions>
-  </codeStyleSettings>
-</code_scheme>
+<code_scheme name="Default" version="173" />
