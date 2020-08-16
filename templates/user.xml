@@ -1,7 +1,9 @@
 <templateSet group="user">
-  <template name="psection" value="print('######')" description="" toReformat="false" toShortenFQNames="true">
+  <template name="exportConstArrowFunc" value="export const $funcname$ = ($args$) =&gt; {&#10;    $END$&#10;}" description="new arrow func" toReformat="false" toShortenFQNames="true">
+    <variable name="funcname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="Python" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
 </templateSet>

@@ -1,9 +1,9 @@
 <scheme name="_@user_Solarized Dark" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2020-07-07T00:15:08</property>
-    <property name="ide">Python</property>
-    <property name="ideVersion">2019.3.1.0.0</property>
-    <property name="modified">2020-07-07T00:18:32</property>
+    <property name="created">2020-04-01T00:39:47</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2019.3.4.0.0</property>
+    <property name="modified">2020-04-01T00:41:43</property>
     <property name="originalScheme">Solarized Dark</property>
   </metaInfo>
   <colors>
@@ -1260,6 +1260,9 @@
         <option name="FOREGROUND" value="2aa198" />
       </value>
     </option>
+    <option name="HTML_CODE">
+      <value />
+    </option>
     <option name="HTML_COMMENT">
       <value>
         <option name="FOREGROUND" value="dc322f" />
@@ -1547,12 +1550,6 @@
         <option name="FOREGROUND" value="268bd2" />
       </value>
     </option>
-    <option name="JS.LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="586e75" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="JS.LOCAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="93a1a1" />
@@ -1651,6 +1648,11 @@
     <option name="KOTLIN_FUNCTION_CALL">
       <value />
     </option>
+    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="KOTLIN_INSTANCE_PROPERTY">
       <value>
         <option name="FOREGROUND" value="6c71c4" />
@@ -1663,9 +1665,7 @@
       </value>
     </option>
     <option name="KOTLIN_LABEL">
-      <value>
-        <option name="FOREGROUND" value="eb952c" />
-      </value>
+      <value />
     </option>
     <option name="KOTLIN_LINE_COMMENT">
       <value>
@@ -2102,7 +2102,8 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="1f4d2c" />
+        <option name="BACKGROUND" value="3b514d" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MESSAGE_ARGUMENT">
@@ -2429,6 +2430,12 @@
         <option name="FOREGROUND" value="6c71c4" />
       </value>
     </option>
+    <option name="PY.LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="586e75" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="PY.NUMBER">
       <value>
         <option name="FOREGROUND" value="2aa198" />
@@ -2597,6 +2604,11 @@
         <option name="FOREGROUND" value="dc322f" />
       </value>
     </option>
+    <option name="REST.BOLD">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="REST.EXPLICIT">
       <value>
         <option name="FOREGROUND" value="268bd2" />
@@ -2624,6 +2636,11 @@
       <value>
         <option name="FOREGROUND" value="73642" />
         <option name="BACKGROUND" value="b58900" />
+      </value>
+    </option>
+    <option name="REST.ITALIC">
+      <value>
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="REST.LINE_COMMENT">
